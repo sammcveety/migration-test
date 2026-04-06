@@ -1,0 +1,37 @@
+{
+  "tables": [],
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Login Form"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/login",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "username",
+          "value": ""
+        },
+        {
+          "type": "password",
+          "name": "password",
+          "value": ""
+        },
+        {
+          "type": "submit",
+          "name": "",
+          "value": "Log In As Administrator"
+        }
+      ]
+    }
+  ],
+  "badges": [],
+  "alerts": [],
+  "url": "http://localhost:3000/login",
+  "status": 200,
+  "timestamp": "2026-04-06T17:47:21.067Z"
+}

@@ -1,0 +1,100 @@
+{
+  "tables": [
+    {
+      "index": 0,
+      "headers": [],
+      "rows": [
+        [
+          "PK -",
+          "General Checkup",
+          "",
+          "Mon Jan 15 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        ],
+        [
+          "PK -",
+          "Annual Physical",
+          "",
+          "Sat Feb 10 2024 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        ]
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "tag": "H4",
+      "text": "Dr. Sarah Chen"
+    },
+    {
+      "tag": "H6",
+      "text": "Full Name"
+    },
+    {
+      "tag": "H6",
+      "text": "Occupation"
+    },
+    {
+      "tag": "H6",
+      "text": "Email"
+    },
+    {
+      "tag": "H6",
+      "text": "Date of birth"
+    },
+    {
+      "tag": "H6",
+      "text": "Leave Status"
+    },
+    {
+      "tag": "H5",
+      "text": "Current Appointments"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/doctorhome",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "staff_name",
+          "value": "Dr. Sarah Chen"
+        },
+        {
+          "type": "text",
+          "name": "occupation",
+          "value": "Cardiologist"
+        },
+        {
+          "type": "text",
+          "name": "email",
+          "value": "chen@hospital.com"
+        },
+        {
+          "type": "text",
+          "name": "",
+          "value": "Thu Jun 12 1975 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+          "type": "date",
+          "name": "dob",
+          "value": ""
+        },
+        {
+          "type": "checkbox",
+          "name": "onleave",
+          "value": "on"
+        },
+        {
+          "type": "submit",
+          "name": "",
+          "value": "Save Changes"
+        }
+      ]
+    }
+  ],
+  "badges": [],
+  "alerts": [],
+  "url": "http://localhost:3000/doctorhome",
+  "status": 200,
+  "timestamp": "2026-04-06T17:48:10.777Z"
+}

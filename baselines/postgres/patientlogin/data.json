@@ -1,0 +1,32 @@
+{
+  "tables": [],
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Patient Login"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/patientlogin",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "username",
+          "value": ""
+        },
+        {
+          "type": "password",
+          "name": "password",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [],
+  "alerts": [],
+  "url": "http://localhost:3000/patientlogin",
+  "status": 200,
+  "timestamp": "2026-04-06T17:47:23.331Z"
+}

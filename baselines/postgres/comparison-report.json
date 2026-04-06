@@ -1,0 +1,87 @@
+[
+  {
+    "label": "landing",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "login",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "signup",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "patientlogin",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "doctorlogin",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "patientsignup",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "doctorsignup",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-home",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-departments",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-appointments",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-store",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-employees",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-leaves",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-inbox",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-receipt",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "patient-home",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "doctor-home",
+    "pass": true,
+    "diffs": []
+  }
+]

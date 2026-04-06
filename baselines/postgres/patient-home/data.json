@@ -1,0 +1,58 @@
+{
+  "tables": [
+    {
+      "index": 0,
+      "headers": [
+        "Appointment ID",
+        "Title",
+        "Doctor Name",
+        "Appointment Date",
+        "Action"
+      ],
+      "rows": [
+        [
+          "PK - 100",
+          "General Checkup",
+          "Dr. Sarah Chen",
+          "Mon Jan 15 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "Delete"
+        ],
+        [
+          "PK - 104",
+          "Specialist Referral",
+          "Dr. Ahmed Patel",
+          "Thu Feb 15 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "Delete"
+        ]
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Welcome patient Alice Johnson"
+    },
+    {
+      "tag": "H4",
+      "text": "Appointments"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/patienthome",
+      "method": "post",
+      "fields": [
+        {
+          "type": "select-one",
+          "name": "department",
+          "value": "100"
+        }
+      ]
+    }
+  ],
+  "badges": [],
+  "alerts": [],
+  "url": "http://localhost:3000/patienthome",
+  "status": 200,
+  "timestamp": "2026-04-06T17:47:58.762Z"
+}

@@ -1,0 +1,105 @@
+{
+  "tables": [
+    {
+      "index": 0,
+      "headers": [
+        "Medicine id",
+        "Medicine name",
+        "Purchase Date",
+        "Expire",
+        "Expire End",
+        "Price",
+        "Quantity",
+        "Actions"
+      ],
+      "rows": [
+        [
+          "5",
+          "Omeprazole",
+          "Fri Mar 01 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "1 years",
+          "Sat Mar 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "18.75",
+          "450",
+          "Edit\n                                                     Delete"
+        ],
+        [
+          "5",
+          "Omeprazole",
+          "Fri Mar 01 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "1 years",
+          "Sat Mar 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "18.75",
+          "450",
+          "Edit\n                                                     Delete"
+        ],
+        [
+          "5",
+          "Omeprazole",
+          "Fri Mar 01 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "1 years",
+          "Sat Mar 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "18.75",
+          "450",
+          "Edit\n                                                     Delete"
+        ],
+        [
+          "5",
+          "Omeprazole",
+          "Fri Mar 01 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "1 years",
+          "Sat Mar 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "18.75",
+          "450",
+          "Edit\n                                                     Delete"
+        ],
+        [
+          "5",
+          "Omeprazole",
+          "Fri Mar 01 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "1 years",
+          "Sat Mar 01 2025 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "18.75",
+          "450",
+          "Edit\n                                                     Delete"
+        ]
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "tag": "H4",
+      "text": "Assets"
+    },
+    {
+      "tag": "H3",
+      "text": "Are you sure want to delete this medicine?"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/store",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "search",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "action": "http://localhost:3000/store/delete_med/5",
+      "method": "post",
+      "fields": []
+    }
+  ],
+  "badges": [
+    "3",
+    "8"
+  ],
+  "alerts": [],
+  "url": "http://localhost:3000/store",
+  "status": 200,
+  "timestamp": "2026-04-06T17:47:42.265Z"
+}

@@ -1,0 +1,52 @@
+{
+  "tables": [],
+  "headings": [],
+  "forms": [
+    {
+      "action": "http://localhost:3000/patientsignup",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "username",
+          "value": ""
+        },
+        {
+          "type": "email",
+          "name": "email",
+          "value": ""
+        },
+        {
+          "type": "password",
+          "name": "password",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "patient_name",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "address",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "phone_number",
+          "value": ""
+        },
+        {
+          "type": "date",
+          "name": "pdob",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [],
+  "alerts": [],
+  "url": "http://localhost:3000/patientsignup",
+  "status": 200,
+  "timestamp": "2026-04-06T17:47:25.609Z"
+}
