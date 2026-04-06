@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <title>Bills</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <!--[if lt IE 9]>
+		<script src="/assets/js/html5shiv.min.js"></script>
+		<script src="/assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+    <div style="text-align:center; width:100%; size:20px;background: rgb(139, 139, 255); color:aliceblue">Showing bills only for completed appointments</div>
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table class="table table-striped custom-table">
+                <thead>
+                    <tr>
+                        <th>Bill ID</th>
+                        <th>Amount Due</th>
+                        <th>Due Date</th>
+                        <th>Appointment Title</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% for (var i = 0; i < list.length; i++){ %>
+                    <tr>
+
+                        <td>BL - <%= list[i].bill_id %></td>
+                        <td><%= list[i].amount_due %></td>
+                        <td><%= list[i].due_date %></td>
+                        <td><%= list[i].title %></td>
+                        
+                        <td class="text-right">
+                            <a href="/patienthome/generate/list[i].bill_id"><button class="btn btn-primary account-btn">Generate receipt</button></a>
+                        </td>
+                        <% } %>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
