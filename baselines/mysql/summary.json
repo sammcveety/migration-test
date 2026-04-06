@@ -1,0 +1,90 @@
+{
+  "captured": "2026-04-06T17:41:37.429Z",
+  "routes": [
+    {
+      "label": "landing",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "login",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "signup",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "patientlogin",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "doctorlogin",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "patientsignup",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "doctorsignup",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "admin-home",
+      "status": 200,
+      "tables": 2
+    },
+    {
+      "label": "admin-departments",
+      "status": 200,
+      "tables": 1
+    },
+    {
+      "label": "admin-appointments",
+      "status": 200,
+      "tables": 1
+    },
+    {
+      "label": "admin-store",
+      "status": 200,
+      "tables": 1
+    },
+    {
+      "label": "admin-employees",
+      "status": 200,
+      "tables": 1
+    },
+    {
+      "label": "admin-leaves",
+      "status": 200,
+      "tables": 1
+    },
+    {
+      "label": "admin-inbox",
+      "status": 200,
+      "tables": 1
+    },
+    {
+      "label": "admin-receipt",
+      "status": 200,
+      "tables": 1
+    },
+    {
+      "label": "patient-home",
+      "status": 200,
+      "tables": 1
+    },
+    {
+      "label": "doctor-home",
+      "status": 200,
+      "tables": 1
+    }
+  ]
+}
