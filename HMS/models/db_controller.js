@@ -7,7 +7,7 @@ var con = createConnection();
 
 con.connect(function (err) {
   if (err) {
-    throw err;
+    console.error("DB connection error:", err.message);
   } else {
     console.log("you are connected");
   }

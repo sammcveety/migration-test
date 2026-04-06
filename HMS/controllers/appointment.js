@@ -27,7 +27,7 @@ router.get('/',function(req,res){
         console.log(result);
         res.render('appointment.ejs',{list :result});
     })*/
-    con.query("select * from appointments inner join patients on appointments.patient_id=patients.patient_id inner join staff on appointments.staff_id=staff.staff_id=",function (err,result) {
+    con.query("select * from appointments inner join patients on appointments.patient_id=patients.patient_id inner join staff on appointments.staff_id=staff.staff_id",function (err,result) {
         console.log(result);
         res.render('appointment.ejs',{list :result});
     })
@@ -35,7 +35,7 @@ router.get('/',function(req,res){
 
 router.get('/delete_appointment/:id',function(req,res){
     var id = req.params.id;
-    con.query("select * from appointments where apt_id=?",[id],function (err,result) {
+    con.query("select * from appointments where aptid=?",[id],function (err,result) {
         console.log(result);
         res.render('delete_appointment.ejs',{list:result});
     })
@@ -48,7 +48,7 @@ router.get('/delete_appointment/:id',function(req,res){
 
 router.post('/delete_appointment/:id',function(req,res){
     var id =req.params.id;
-    con.query("delete from appointments where apt_id=?",[id],function (err,result) {
+    con.query("delete from appointments where aptid=?",[id],function (err,result) {
         res.redirect('/appointment');
     });
     /*db.deleteappointment(id,function(err,result){
