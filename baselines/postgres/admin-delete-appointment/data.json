@@ -1,0 +1,60 @@
+{
+  "tables": [],
+  "headings": [
+    {
+      "tag": "H4",
+      "text": "Delete Appointment"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/appointment/delete_appointment/100",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "p_name",
+          "value": ""
+        },
+        {
+          "type": "select-one",
+          "name": "department",
+          "value": "Dentists"
+        },
+        {
+          "type": "text",
+          "name": "d_name",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "date",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "time",
+          "value": ""
+        },
+        {
+          "type": "email",
+          "name": "email",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "phone",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [
+    "3",
+    "8"
+  ],
+  "alerts": [],
+  "url": "http://localhost:3000/appointment/delete_appointment/100",
+  "status": 200,
+  "timestamp": "2026-04-06T21:34:45.224Z"
+}

@@ -1,5 +1,5 @@
 {
-  "captured": "2026-04-06T17:48:10.834Z",
+  "captured": "2026-04-06T21:35:28.009Z",
   "routes": [
     {
       "label": "landing",
@@ -37,6 +37,26 @@
       "tables": 0
     },
     {
+      "label": "complain-form",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "verify",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "resetpassword",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "setpassword",
+      "status": 200,
+      "tables": 0
+    },
+    {
       "label": "admin-home",
       "status": 200,
       "tables": 2
@@ -45,6 +65,11 @@
       "label": "admin-departments",
       "status": 200,
       "tables": 1
+    },
+    {
+      "label": "admin-add-departments",
+      "status": 200,
+      "tables": 0
     },
     {
       "label": "admin-appointments",
@@ -57,14 +82,39 @@
       "tables": 1
     },
     {
+      "label": "admin-add-med",
+      "status": 200,
+      "tables": 0
+    },
+    {
       "label": "admin-employees",
       "status": 200,
       "tables": 1
     },
     {
+      "label": "admin-add-employee",
+      "status": 200,
+      "tables": 0
+    },
+    {
       "label": "admin-leaves",
       "status": 200,
       "tables": 1
+    },
+    {
+      "label": "admin-add-leave",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "admin-doctors-list",
+      "status": 200,
+      "tables": 1
+    },
+    {
+      "label": "admin-add-doctor",
+      "status": 200,
+      "tables": 0
     },
     {
       "label": "admin-inbox",
@@ -77,9 +127,101 @@
       "tables": 1
     },
     {
+      "label": "admin-edit-med",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "admin-delete-med",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "admin-edit-employee",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "admin-delete-employee",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "admin-edit-doctor",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "admin-delete-doctor",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "admin-payslip",
+      "status": 200,
+      "tables": 2
+    },
+    {
+      "label": "admin-delete-appointment",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "flow-add-employee-result",
+      "status": 200,
+      "tables": 1,
+      "verified": true
+    },
+    {
+      "label": "flow-search-employee-result",
+      "status": 200,
+      "tables": 1,
+      "verified": true
+    },
+    {
+      "label": "flow-add-medicine-result",
+      "status": 200,
+      "tables": 1,
+      "verified": true
+    },
+    {
+      "label": "flow-search-medicine-result",
+      "status": 200,
+      "tables": 1,
+      "verified": true
+    },
+    {
+      "label": "flow-add-department-result",
+      "status": 200,
+      "tables": 1,
+      "verified": true
+    },
+    {
+      "label": "flow-add-leave-result",
+      "status": 200,
+      "tables": 1,
+      "verified": true
+    },
+    {
       "label": "patient-home",
       "status": 200,
       "tables": 1
+    },
+    {
+      "label": "patient-bills",
+      "status": 200,
+      "tables": 1
+    },
+    {
+      "label": "patient-edit-apt",
+      "status": 200,
+      "tables": 0
+    },
+    {
+      "label": "flow-patient-book-apt-result",
+      "status": 200,
+      "tables": 1,
+      "verified": true
     },
     {
       "label": "doctor-home",

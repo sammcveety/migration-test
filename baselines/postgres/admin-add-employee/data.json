@@ -1,0 +1,55 @@
+{
+  "tables": [],
+  "headings": [
+    {
+      "tag": "H4",
+      "text": "Add Employee"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/employee/add",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "name",
+          "value": ""
+        },
+        {
+          "type": "email",
+          "name": "email",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "contact",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "salary",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "date",
+          "value": ""
+        },
+        {
+          "type": "select-one",
+          "name": "role",
+          "value": "Nurse"
+        }
+      ]
+    }
+  ],
+  "badges": [
+    "3",
+    "8"
+  ],
+  "alerts": [],
+  "url": "http://localhost:3000/employee/add",
+  "status": 200,
+  "timestamp": "2026-04-06T21:34:28.891Z"
+}

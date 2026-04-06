@@ -1,0 +1,52 @@
+{
+  "tables": [
+    {
+      "index": 0,
+      "headers": [
+        "#",
+        "Department Name"
+      ],
+      "rows": [
+        [
+          "100",
+          "Cardiology"
+        ],
+        [
+          "101",
+          "Neurology"
+        ],
+        [
+          "102",
+          "Orthopedics"
+        ],
+        [
+          "103",
+          "Pediatrics"
+        ],
+        [
+          "104",
+          "Dermatology"
+        ],
+        [
+          "105",
+          "Radiology"
+        ]
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "tag": "H4",
+      "text": "Departments"
+    }
+  ],
+  "forms": [],
+  "badges": [
+    "3",
+    "8"
+  ],
+  "alerts": [],
+  "url": "http://localhost:3000/home/departments",
+  "status": 200,
+  "timestamp": "2026-04-06T21:34:56.319Z"
+}

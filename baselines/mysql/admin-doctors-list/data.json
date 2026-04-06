@@ -1,0 +1,117 @@
+{
+  "tables": [
+    {
+      "index": 0,
+      "headers": [
+        "Image",
+        "ID",
+        "First Name",
+        "Last Name",
+        "Email",
+        "DOB",
+        "Gender",
+        "Address",
+        "Phone",
+        "Department",
+        "Action"
+      ],
+      "rows": [
+        [
+          "",
+          "1",
+          "Sarah",
+          "Chen",
+          "chen@hospital.com",
+          "Thu Jun 12 1975 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "Female",
+          "100 Medical Dr",
+          "555-3001",
+          "Cardiology",
+          "Edit\n                                                     Delete"
+        ],
+        [
+          "",
+          "2",
+          "James",
+          "Wilson",
+          "wilson@hospital.com",
+          "Thu Feb 28 1980 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "Male",
+          "200 Hospital Ave",
+          "555-3002",
+          "Neurology",
+          "Edit\n                                                     Delete"
+        ],
+        [
+          "",
+          "3",
+          "Maria",
+          "Garcia",
+          "garcia@hospital.com",
+          "Fri Sep 03 1982 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "Female",
+          "300 Health Blvd",
+          "555-3003",
+          "Orthopedics",
+          "Edit\n                                                     Delete"
+        ],
+        [
+          "",
+          "4",
+          "Ahmed",
+          "Patel",
+          "patel@hospital.com",
+          "Sun Apr 17 1988 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "Male",
+          "400 Care Lane",
+          "555-3004",
+          "Pediatrics",
+          "Edit\n                                                     Delete"
+        ]
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "tag": "H4",
+      "text": "Doctors"
+    },
+    {
+      "tag": "H2",
+      "text": ""
+    },
+    {
+      "tag": "H2",
+      "text": ""
+    },
+    {
+      "tag": "H2",
+      "text": ""
+    },
+    {
+      "tag": "H2",
+      "text": ""
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/doctors",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "search",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [
+    "3",
+    "8"
+  ],
+  "alerts": [],
+  "url": "http://localhost:3000/doctors",
+  "status": 200,
+  "timestamp": "2026-04-06T20:59:41.968Z"
+}

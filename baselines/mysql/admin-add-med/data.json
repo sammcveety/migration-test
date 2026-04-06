@@ -1,0 +1,55 @@
+{
+  "tables": [],
+  "headings": [
+    {
+      "tag": "H4",
+      "text": "Add Medicine"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/store/add_med",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "name",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "p_date",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "expire",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "e_date",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "price",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "quantity",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [
+    "3",
+    "8"
+  ],
+  "alerts": [],
+  "url": "http://localhost:3000/store/add_med",
+  "status": 200,
+  "timestamp": "2026-04-06T20:59:35.934Z"
+}

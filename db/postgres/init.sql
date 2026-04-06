@@ -9,7 +9,7 @@ CREATE TABLE department (
   dept_id SERIAL PRIMARY KEY,
   dname VARCHAR(255) NOT NULL,
   contact_info VARCHAR(255) NOT NULL,
-  "locationName" VARCHAR(255) NOT NULL
+  locationname VARCHAR(255) NOT NULL
 );
 
 ALTER SEQUENCE department_dept_id_seq RESTART WITH 100;
@@ -17,7 +17,7 @@ ALTER SEQUENCE department_dept_id_seq RESTART WITH 100;
 CREATE TABLE patients (
   patient_id SERIAL PRIMARY KEY,
   patient_name VARCHAR(255) NOT NULL,
-  "DOB" DATE NOT NULL,
+  dob DATE NOT NULL,
   balance REAL DEFAULT 0,
   phone_number VARCHAR(255),
   address VARCHAR(255) NOT NULL,
@@ -320,7 +320,7 @@ $$ LANGUAGE plpgsql;
 -- Seed data
 -- -------------------------------------------
 
-INSERT INTO department (dname, contact_info, "locationName") VALUES
+INSERT INTO department (dname, contact_info, locationname) VALUES
   ('Cardiology', '555-0101', 'Building A, Floor 2'),
   ('Neurology', '555-0102', 'Building B, Floor 1'),
   ('Orthopedics', '555-0103', 'Building A, Floor 3'),
@@ -330,7 +330,7 @@ INSERT INTO department (dname, contact_info, "locationName") VALUES
 INSERT INTO admin (username, email, password) VALUES
   ('admin', 'admin@hospital.com', 'admin123');
 
-INSERT INTO patients (patient_name, "DOB", balance, phone_number, address, username, email, password) VALUES
+INSERT INTO patients (patient_name, dob, balance, phone_number, address, username, email, password) VALUES
   ('Alice Johnson', '1985-03-15', 0, '555-1001', '123 Oak St', 'alice', 'alice@email.com', 'pass123'),
   ('Bob Smith', '1990-07-22', 0, '555-1002', '456 Elm St', 'bob', 'bob@email.com', 'pass123'),
   ('Carol Williams', '1978-11-08', 0, '555-1003', '789 Pine St', 'carol', 'carol@email.com', 'pass123');

@@ -1,0 +1,27 @@
+{
+  "tables": [],
+  "headings": [],
+  "forms": [
+    {
+      "action": "http://localhost:3000/verify",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "id",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "token",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [],
+  "alerts": [],
+  "url": "http://localhost:3000/verify",
+  "status": 200,
+  "timestamp": "2026-04-06T20:59:15.592Z"
+}

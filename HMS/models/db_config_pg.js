@@ -25,6 +25,16 @@ function translateQuery(sql, params) {
   // Strip backtick quoting (MySQL uses backticks, PG uses double quotes or none)
   translated = translated.replace(/`/g, "");
 
+  // MySQL uses double quotes as string delimiters in some contexts (e.g. LIKE "%foo%")
+  // PostgreSQL uses double quotes for identifier quoting. Convert to single quotes.
+  // Match patterns like: like "%" or like "%foo%"
+  translated = translated.replace(/like\s+"(%[^"]*%?)"/gi, (match, pattern) => {
+    return `like '${pattern}'`;
+  });
+  translated = translated.replace(/like\s+"([^"]*%[^"]*)"/gi, (match, pattern) => {
+    return `like '${pattern}'`;
+  });
+
   // DATE(NOW()) → CURRENT_DATE
   translated = translated.replace(/DATE\(NOW\(\)\)/gi, "CURRENT_DATE");
 

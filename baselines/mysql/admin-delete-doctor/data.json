@@ -1,0 +1,81 @@
+{
+  "tables": [],
+  "headings": [
+    {
+      "tag": "H4",
+      "text": "Delete Doctor"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/doctors/delete_doctor/1",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "first_name",
+          "value": "Sarah"
+        },
+        {
+          "type": "text",
+          "name": "last_name",
+          "value": "Chen"
+        },
+        {
+          "type": "email",
+          "name": "email",
+          "value": "chen@hospital.com"
+        },
+        {
+          "type": "text",
+          "name": "dob",
+          "value": "Thu Jun 12 1975 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        {
+          "type": "radio",
+          "name": "gender",
+          "value": "male"
+        },
+        {
+          "type": "radio",
+          "name": "gender",
+          "value": "female"
+        },
+        {
+          "type": "text",
+          "name": "address",
+          "value": "100 Medical Dr"
+        },
+        {
+          "type": "text",
+          "name": "phone",
+          "value": "555-3001"
+        },
+        {
+          "type": "file",
+          "name": "image",
+          "value": ""
+        },
+        {
+          "type": "select-one",
+          "name": "department",
+          "value": "Neurology"
+        },
+        {
+          "type": "textarea",
+          "name": "biography",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [
+    "3",
+    "8",
+    "5"
+  ],
+  "alerts": [],
+  "url": "http://localhost:3000/doctors/delete_doctor/1",
+  "status": 200,
+  "timestamp": "2026-04-06T20:59:52.536Z"
+}

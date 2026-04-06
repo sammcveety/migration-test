@@ -1,0 +1,40 @@
+{
+  "tables": [],
+  "headings": [
+    {
+      "tag": "H4",
+      "text": "Add Department"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/home/add_departments",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "dname",
+          "value": ""
+        },
+        {
+          "type": "textarea",
+          "name": "contact",
+          "value": ""
+        },
+        {
+          "type": "textarea",
+          "name": "location",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [
+    "3",
+    "8"
+  ],
+  "alerts": [],
+  "url": "http://localhost:3000/home/add_departments",
+  "status": 200,
+  "timestamp": "2026-04-06T21:34:23.093Z"
+}

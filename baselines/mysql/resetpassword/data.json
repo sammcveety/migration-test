@@ -1,0 +1,22 @@
+{
+  "tables": [],
+  "headings": [],
+  "forms": [
+    {
+      "action": "http://localhost:3000/resetpassword",
+      "method": "post",
+      "fields": [
+        {
+          "type": "email",
+          "name": "email",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [],
+  "alerts": [],
+  "url": "http://localhost:3000/resetpassword",
+  "status": 200,
+  "timestamp": "2026-04-06T20:59:16.727Z"
+}

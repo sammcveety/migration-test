@@ -1,0 +1,37 @@
+{
+  "tables": [],
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "A token has been sent to your email"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/setpassword",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "id",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "token",
+          "value": ""
+        },
+        {
+          "type": "password",
+          "name": "password",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [],
+  "alerts": [],
+  "url": "http://localhost:3000/setpassword",
+  "status": 200,
+  "timestamp": "2026-04-06T21:34:08.740Z"
+}

@@ -35,12 +35,37 @@
     "diffs": []
   },
   {
+    "label": "complain-form",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "verify",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "resetpassword",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "setpassword",
+    "pass": true,
+    "diffs": []
+  },
+  {
     "label": "admin-home",
     "pass": true,
     "diffs": []
   },
   {
     "label": "admin-departments",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-add-departments",
     "pass": true,
     "diffs": []
   },
@@ -55,12 +80,37 @@
     "diffs": []
   },
   {
+    "label": "admin-add-med",
+    "pass": true,
+    "diffs": []
+  },
+  {
     "label": "admin-employees",
     "pass": true,
     "diffs": []
   },
   {
+    "label": "admin-add-employee",
+    "pass": true,
+    "diffs": []
+  },
+  {
     "label": "admin-leaves",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-add-leave",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-doctors-list",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-add-doctor",
     "pass": true,
     "diffs": []
   },
@@ -75,9 +125,138 @@
     "diffs": []
   },
   {
+    "label": "admin-edit-med",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-delete-med",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-edit-employee",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-delete-employee",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-edit-doctor",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-delete-doctor",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-payslip",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "admin-delete-appointment",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "flow-add-employee-result",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "flow-search-employee-result",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "flow-add-medicine-result",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "flow-search-medicine-result",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "flow-add-department-result",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "flow-add-leave-result",
+    "pass": true,
+    "diffs": []
+  },
+  {
     "label": "patient-home",
     "pass": true,
     "diffs": []
+  },
+  {
+    "label": "patient-bills",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "patient-edit-apt",
+    "pass": true,
+    "diffs": []
+  },
+  {
+    "label": "flow-patient-book-apt-result",
+    "pass": false,
+    "diffs": [
+      {
+        "type": "table_diffs",
+        "details": [
+          {
+            "table": 0,
+            "type": "row_data_changed",
+            "row": 1,
+            "before": [
+              "PK - 105",
+              "Headache Consultation",
+              "Dr. James Wilson",
+              "Wed May 01 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+              "Edit\n                                                \n                                                 Delete"
+            ],
+            "after": [
+              "PK - 104",
+              "Specialist Referral",
+              "Dr. Ahmed Patel",
+              "Thu Feb 15 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+              "Delete"
+            ]
+          },
+          {
+            "table": 0,
+            "type": "row_data_changed",
+            "row": 2,
+            "before": [
+              "PK - 104",
+              "Specialist Referral",
+              "Dr. Ahmed Patel",
+              "Thu Feb 15 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+              "Delete"
+            ],
+            "after": [
+              "PK - 105",
+              "Headache Consultation",
+              "Dr. James Wilson",
+              "Wed May 01 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+              "Edit\n                                                \n                                                 Delete"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "label": "doctor-home",

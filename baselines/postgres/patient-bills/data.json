@@ -1,0 +1,30 @@
+{
+  "tables": [
+    {
+      "index": 0,
+      "headers": [
+        "Bill ID",
+        "Amount Due",
+        "Due Date",
+        "Appointment Title",
+        "Action"
+      ],
+      "rows": [
+        [
+          "BL - 100",
+          "50000",
+          "Thu Feb 15 2024 00:00:00 GMT+0000 (Coordinated Universal Time)",
+          "General Checkup",
+          "Generate receipt"
+        ]
+      ]
+    }
+  ],
+  "headings": [],
+  "forms": [],
+  "badges": [],
+  "alerts": [],
+  "url": "http://localhost:3000/patienthome/bills",
+  "status": 200,
+  "timestamp": "2026-04-06T21:35:11.854Z"
+}

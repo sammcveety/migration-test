@@ -1,0 +1,55 @@
+{
+  "tables": [],
+  "headings": [
+    {
+      "tag": "H4",
+      "text": "Add Leave"
+    }
+  ],
+  "forms": [
+    {
+      "action": "http://localhost:3000/employee/add_leave",
+      "method": "post",
+      "fields": [
+        {
+          "type": "text",
+          "name": "name",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "id",
+          "value": ""
+        },
+        {
+          "type": "select-one",
+          "name": "leave_type",
+          "value": "Select Leave Type"
+        },
+        {
+          "type": "text",
+          "name": "from",
+          "value": ""
+        },
+        {
+          "type": "text",
+          "name": "to",
+          "value": ""
+        },
+        {
+          "type": "textarea",
+          "name": "reason",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "badges": [
+    "3",
+    "8"
+  ],
+  "alerts": [],
+  "url": "http://localhost:3000/employee/add_leave",
+  "status": 200,
+  "timestamp": "2026-04-06T21:34:31.193Z"
+}
